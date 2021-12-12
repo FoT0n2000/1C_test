@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0621d384-d771-447f-8ae0-80fb49976206">
+  <producedTypes>
+    <selectionType typeId="55a518c8-a8e8-4616-9e42-c33df02b3674" valueTypeId="598640a3-4c14-46dc-a414-c55e7d25184b"/>
+    <listType typeId="dae7ec4c-1bb8-4d57-879c-b596da537182" valueTypeId="348efa86-461e-442e-9e23-a53348d92bb9"/>
+    <managerType typeId="42952911-da93-4fc3-8161-c99eadfbd858" valueTypeId="0073c7f0-6758-4e84-8387-11e74f49796c"/>
+    <recordSetType typeId="095f809e-4738-4f83-a0a2-f0bd373986e6" valueTypeId="1dfc435b-702a-4f5e-bcce-4303322a415d"/>
+    <recordKeyType typeId="2bdb107b-76ef-465b-a8ad-89c2b5919c01" valueTypeId="b1659a71-97a0-49ff-b447-11d549b42c92"/>
+    <recordType typeId="edb5c67d-67d0-4b71-8589-cb86a58581cb" valueTypeId="f2bddf8a-a93d-4a60-a7c3-f13be5963bb4"/>
+    <recordManagerType typeId="9e0483dc-6c62-48c6-9eda-92e179fa5e28" valueTypeId="7a7f8353-c581-4d32-89bf-a2fba396d54e"/>
+  </producedTypes>
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="59104bd3-9b49-4cff-b875-109a175bdc0e">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8123c0e7-7fae-44ff-9418-d047c2df6dcb">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fa9b7957-416b-4a17-857f-efac9c3df652">
+    <name>ИдентификаторСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор строки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

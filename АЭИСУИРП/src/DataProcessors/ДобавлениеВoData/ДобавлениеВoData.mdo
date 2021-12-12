@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9135ea6-8497-453e-bd3b-21a6f434bcb3">
+  <producedTypes>
+    <objectType typeId="4c009f59-eb63-40df-be43-a120be5db7c6" valueTypeId="a2a798bb-e174-4010-8b06-9ca3be9a5770"/>
+    <managerType typeId="6cbc9d6e-d105-4cb1-971c-9ae932885211" valueTypeId="f8a316eb-08b5-461b-8f30-3f731a383e89"/>
+  </producedTypes>
+  <name>ДобавлениеВoData</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление в oData </value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДобавлениеВoData.Form.Форма</defaultForm>
+  <forms uuid="bf02af15-f4da-4b5c-83ce-4aeb567319bb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
