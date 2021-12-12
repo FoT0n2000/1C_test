@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10aa0bff-d3ab-42c3-873b-cf6f15250651">
+  <producedTypes>
+    <objectType typeId="b7c59221-83a7-4024-8894-e8a9b9f1f94d" valueTypeId="772f8f8b-2160-40df-b7f4-ff623a00d63d"/>
+    <refType typeId="33a85643-4623-4fb0-86d8-f1db1dcee0ff" valueTypeId="0ffa4698-b5dd-4eaf-ad86-95834c4be431"/>
+    <selectionType typeId="92aeb955-7f44-475d-acc7-59fee66a52a2" valueTypeId="d88d4b07-24d9-4d55-8677-7afbb27cc527"/>
+    <listType typeId="38930d17-3077-4e1e-8510-9d9e3c968cb7" valueTypeId="c7697fdb-7826-426d-9d82-96f1d6323875"/>
+    <managerType typeId="ddb47e7d-0005-4d55-9fb8-bf3d197e0033" valueTypeId="1c52a75a-ff55-483e-a3b9-aeb7c26677c8"/>
+  </producedTypes>
+  <name>стд_новый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стд новый</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.стд_новый.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.стд_новый.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
