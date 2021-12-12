@@ -39,6 +39,7 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.стд_новый</catalogs>
+  <catalogs>Catalog.стд_Люди</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.стд_Пользователи</documents>
